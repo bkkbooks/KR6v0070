@@ -1,0 +1,58 @@
+canonical_identifier: bkk:krp/KR6v0070/v1
+canonical_location: https://kanripo.org/bkk/KR6v0070/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 注心要法門
+  identifiers:
+    alt_id:
+    - W07n0058
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/ZW/ZW07/ZW07n0058.xml
+    old_id: ZW07n0058
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR6v0070_001.yaml, hash: 'sha256:e9814b32ac7a81dc91c94882859972d4e42539414c9eca2224955c1e8a320169'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6v0070_001.markers.yaml, hash: 'sha256:e123eccad47e2b312d7323cfd53564fa0aee8bf23934840b12f826b9e738d900'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6v0070_ZW_001-juan-start
+    span:
+    - body
+    - 0
+    - 4021
+  label: ''
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0070_ZW_001-mulu-1
+    span:
+    - body
+    - 0
+    - 0
+  label: 題解
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0070_ZW_001-mulu-2
+    span:
+    - body
+    - 2549
+    - 2549
+  label: 錄文
+  type: mulu
+  level: 1
+hash: sha256:89879434c9dd3dbe7814254e04a8d2693c8897889dd31fc09f14755cc3ecf99f
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+editions:
+- short: ZW
